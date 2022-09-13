@@ -1,0 +1,21 @@
+@media (max-width: 54em) {
+  .container {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 47em) {
+  .box-container {
+    flex-direction: column;
+  }
+
+  .container {
+    max-width: 50rem;
+    padding: 4.5rem;
+    gap: 1rem;
+  }
+
+  .box-container {
+    margin: 2rem;
+  }
+}
